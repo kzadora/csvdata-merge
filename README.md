@@ -4,15 +4,15 @@
 The tool is written in Python and requires Python 3 to run.
 
 ## Usage
-    python3 csvdata-merge [--skip-lines n] [--verbose] file0 file1
+    python3 csvdata-merge [--skip-lines n] [--verbose] primary-file auxiliary-file
 
 where
 
 | Parameter | Description |
 | :--- | :--------- |
-| `file0` | first data file (primary file) |
-| `file1` | Second data file (auxiliary file) |
-| `--skip-lines n` | (optional) Number of lines to skip (in both files) before attempting to read data. |
+| `primary-file` | The primary data file |
+| `auxiliary-file` | The auxiliary data file |
+| `--skip-lines <n>` | (optional) Number of lines to skip (in both files) before attempting to read data. |
 | `--verbose` | (optional) Emits verbose output with additional diagnostic information. |
 
 Both files are assumed to contain CSV-formatted data with first line of data being the header. The program will attempt to merge data in the auxiliary file into the primary file. This is done by comparing columns present in primary and auxiliary files, and then adding columns missing in the primary file, but present in the auxiliary file, into the primary file records. The merged records are then written (in CSV format) to standard output.
