@@ -1,0 +1,1 @@
+- Figure out what is the best Python interface to represent “stream of records” concept
