@@ -6,7 +6,7 @@ Use [StringIO](https://docs.python.org/3/library/io.html#io.StringIO) to produce
 
 
 ## TODO
-We will need an "enhanced" iterator, one that can "put back" some records that need to be processed again.
+Write some tests for BufferedIterator
 
 
 
