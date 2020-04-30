@@ -4,7 +4,7 @@
 The tool is written in Python and requires Python 3 to run.
 
 ## Usage
-    python3 csvdata-merge [--skip-lines n] [--verbose] primary-file auxiliary-file
+    python3 csvdata_merge [--skip-lines n] [--verbose] primary-file auxiliary-file
 
 where
 
@@ -50,7 +50,7 @@ To deactivate the environment
 
 ### Testing the program
 
-    python3 tests.py
+    python3 -m unittest discover ./tests '*.py'
 
 ## References
 CSV file format spec: https://tools.ietf.org/html/rfc4180

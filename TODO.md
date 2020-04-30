@@ -20,7 +20,7 @@ Adds only properties that are not present in the primary record.
 Interpolates values for additional numeric properties based on high-precision timestamp 
 
 
-### timestamped-dstream module
+### timestamped_dstream module
 Exposes functions that handle timestamped data streams. <br/>
 
 `getAuxiliaries(primary)`
