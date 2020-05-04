@@ -4,10 +4,7 @@ We will represent streams of records using [Python interators](https://docs.pyth
 Use [StringIO](https://docs.python.org/3/library/io.html#io.StringIO) to produce timestamped CSV data for testing
 
 
-
 ## TODO
-Write some tests for BufferedIterator
-
 
 
 ## Modules
